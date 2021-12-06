@@ -1,21 +1,21 @@
 Wikipedia-API is a RESTFUL API. Tech used in making this restful API is - Javascript, Nodejs, Expressjs, MongoDB.
 
-1.Create New Directory called Wikipedia-API
+<b>1.Create New Directory called Wikipedia-API</b>
 
 cd Desktop
 mkdir wikipedia-API
 cd Wikipedia-API
 
-2.Initialise NPM and install body-parser, mongoose, ejs, and Express
+<b>2.Initialise NPM and install body-parser, mongoose, ejs, and Express</b>
 
 npm init -y
 npm i body-parser mongoose ejs express
 
-3.Create a new file called App.js
+<b>3.Create a new file called App.js</b>
 touch app.js
 atom .
 
-4.Inside app.js add server code (Write/copy)
+<b>4.Inside app.js add server code (Write/copy)</b>
 which include following dependency-
 (i)  express
 (ii) body-parser
@@ -47,7 +47,7 @@ app.listen(3000, function() {
 });
 
 
-5.Setup MongoDB: 
+<b>5.Setup MongoDB: </b>
 (i) Create a database inside Robo3t wirh name wiki-DB
 (ii) connect mongoose in app.js
 (iii) Create an schema for your database, Document has 2 fields: title and content.
